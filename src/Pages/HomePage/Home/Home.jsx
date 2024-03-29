@@ -2,6 +2,7 @@ import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
 
 
@@ -12,6 +13,7 @@ const Home = () => {
             <Banner></Banner>
             <Category></Category>
             <PopularMenu></PopularMenu>
+            <Featured></Featured>
             <Footer></Footer>
         </div>
     );
